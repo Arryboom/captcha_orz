@@ -28,10 +28,14 @@ if you want to train a new captcha code,simplfy step will be:
 1.collect your trainning image set,put it under  \model_server\images\\***number index of your model***,
 ex: ``\model_server\images\11\``
 and the picture must named with this format:``index_value.png``(png could replace with other image format)
-ex: a captcha with 7D2F in it,the name should be ``1_7D2F.png``(1 replace by the index you define)
-2.modify \model_server\trainning.py to adapt your captcha(layer/image size/save accuracy etc)
-3.modify \model_server\gen_captcha.py to adapt your captcha(model index/image size/capcha image text length etc)
-4.run \model_server\trainning.py to tranning your model,if it successed,there will be your finnal model file in \model_server\models\***number index of your model***\
+ex: a captcha with 7D2F in it,the name should be ``1_7D2F.png``(1 replace by the index you define)  
+
+2.modify \model_server\trainning.py to adapt your captcha(layer/image size/save accuracy etc)  
+
+3.modify \model_server\gen_captcha.py to adapt your captcha(model index/image size/capcha image text length etc)  
+
+4.run \model_server\trainning.py to tranning your model,if it successed,there will be your finnal model file in \model_server\models\***number index of your model***\  
+
 5.modify \model_server\service.py to adapt your model
 
 

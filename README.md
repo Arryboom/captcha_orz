@@ -11,7 +11,7 @@ the other setup step pls follow the official docs(https://github.com/VKSRC/captc
 
 running result:
 
-![]("./result.png")
+![](/result.png)
 
 column named status showed the identified result,the format is ``ModelNumber:result,``
 

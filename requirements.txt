@@ -22,7 +22,7 @@ MarkupPy==1.14
 numpy==1.18.5
 odfpy==1.4.1
 openpyxl==3.0.3
-Pillow==7.1.2
+Pillow==9.0.0
 Pillow-PIL==0.1.dev0
 protobuf==3.12.2
 pytz==2020.1
